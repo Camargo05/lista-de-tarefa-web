@@ -1,27 +1,47 @@
-# Frontend Web (Angular) - Projeto Lista de Tarefas
+# Aplicação Lista de Tarefas - Cliente Web (Angular)
 
-Este repositório contém o cliente web para a aplicação de Lista de Tarefas. A interface foi construída com Angular e consome os dados da API REST central.
+Este repositório contém o código-fonte do frontend para o projeto Lista de Tarefas. A interface de usuário foi desenvolvida utilizando o framework Angular e realiza a comunicação com a API backend para a manipulação dos dados.
 
-**Importante:** A API backend precisa estar em execução para que esta aplicação funcione.
-
-- **Link para a API Backend:** `https://github.com/RafaelSilvaGomes/lista-tarefas-api`
+**Pré-requisito Essencial:** Para que a aplicação funcione corretamente, é indispensável que o servidor da [API Backend](https://github.com/RafaelSilvaGomes/lista-tarefas-api) esteja em execução.
 
 ---
 
-### Tecnologias Utilizadas
--   Angular
--   TypeScript
--   HTML / CSS
+### Stack de Tecnologias
 
-### Como Executar
-1.  **Pré-requisitos:**
-    -   Node.js e Angular CLI instalados.
-    -   A [API Backend](https://github.com/RafaelSilvaGomes/lista-tarefas-api) deve estar rodando.
-2.  Clone este repositório: `git clone https://github.com/RafaelSilvaGomes/lista-tarefas-web.git`
-3.  Navegue até a pasta do projeto: `cd lista-tarefas-web`
-4.  Instale as dependências: `npm install`
-5.  Execute a aplicação: `ng serve --open`
-6.  A aplicação estará disponível em `http://localhost:4200`.
+* **Angular:** Framework principal para a construção da interface.
+* **TypeScript:** Linguagem base para o desenvolvimento em Angular.
+* **HTML / CSS:** Estruturação e estilização das páginas.
+
+### Instalação e Execução Local
+
+Siga os passos abaixo para executar o projeto em seu ambiente de desenvolvimento:
+
+1.  **Requisitos:**
+    * É necessário ter Node.js e o Angular CLI instalados.
+    * Certifique-se de que a [API Backend](https://github.com/RafaelSilvaGomes/lista-tarefas-api) esteja ativa.
+
+2.  Clone o repositório para a sua máquina local:
+    ```bash
+    git clone [https://github.com/RafaelSilvaGomes/lista-tarefas-web.git](https://github.com/RafaelSilvaGomes/lista-tarefas-web.git)
+    ```
+
+3.  Acesse o diretório do projeto:
+    ```bash
+    cd lista-tarefas-web
+    ```
+
+4.  Instale todas as dependências do Node.js:
+    ```bash
+    npm install
+    ```
+
+5.  Inicie o servidor de desenvolvimento do Angular:
+    ```bash
+    ng serve --open
+    ```
+
+6.  O projeto estará acessível no seu navegador através do endereço `http://localhost:4200`.
 
 ---
-**Autor:** Rafael Silva Gomes
+
+**Desenvolvido por:** Pablo Juliano
